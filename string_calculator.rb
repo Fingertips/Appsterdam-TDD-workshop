@@ -1,3 +1,5 @@
+# http://osherove.com/tdd-kata-1/
+
 require 'rubygems'
 require 'mac_bacon'
 
