@@ -5,6 +5,7 @@ def add(string)
   return 0 if string.empty?
   result = 0
   string.split(/,|\n/).each do |s|
+    raise ArgumentError, "no empty values allowed" if s.empty?
     result = result + s.to_i
   end
   result
@@ -36,6 +37,6 @@ describe "The string calculator method `Add'" do
   end
 
   it "does not allow empty values" do
-    lambda { add("1,\n") }.should.raise ArgumentError
+    lambda { add("1,\n2") }.should.raise ArgumentError
   end
 end
