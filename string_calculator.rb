@@ -34,4 +34,8 @@ describe "The string calculator method `Add'" do
   it "allows new lines between the numbers" do
     add("1\n2,3").should == 6
   end
+
+  it "does not allow empty values" do
+    lambda { add("1,\n") }.should.raise ArgumentError
+  end
 end
