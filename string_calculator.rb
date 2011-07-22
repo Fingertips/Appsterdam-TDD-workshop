@@ -3,8 +3,15 @@ require 'mac_bacon'
 
 def add(string)
   return 0 if string.empty?
+
+  delimiter = ','
+  if string[0,2] == '//'
+    delimiter = string[2,1]
+    string = string[4..-1]
+  end
+
   result = 0
-  string.split(/,|\n/).each do |s|
+  string.split(/#{delimiter}|\n/).each do |s|
     raise ArgumentError, "no empty values allowed" if s.empty?
     result = result + s.to_i
   end
