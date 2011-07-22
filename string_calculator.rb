@@ -30,4 +30,8 @@ describe "The string calculator method `Add'" do
   it "takes an unlimited amount of numbers" do
     add("1,20,2,19").should == 42
   end
+
+  it "allows new lines between the numbers" do
+    add("1\n2,3").should == 6
+  end
 end
