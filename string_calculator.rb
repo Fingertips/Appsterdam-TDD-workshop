@@ -39,4 +39,8 @@ describe "The string calculator method `Add'" do
   it "does not allow empty values" do
     lambda { add("1,\n2") }.should.raise ArgumentError
   end
+
+  it "checks the first line of the string for a custom delimiter" do
+    add("//;\n1;2").should == 3
+  end
 end
