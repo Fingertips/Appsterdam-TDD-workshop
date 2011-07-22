@@ -3,7 +3,7 @@ require 'mac_bacon'
 
 def add(string)
   return 0 if string.empty?
-  string.to_i
+  string[0,1].to_i + string[2,1].to_i
 end
 
 describe "The string calculator method `Add'" do
