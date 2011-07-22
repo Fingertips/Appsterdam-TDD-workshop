@@ -14,4 +14,8 @@ describe "The string calculator method `Add'" do
   it "returns the given digit if the string consists of just one digit" do
     add("1").should == 1
   end
+
+  it "returns the sum of two digits delimited by a comma" do
+    add("1,2").should == 3
+  end
 end
