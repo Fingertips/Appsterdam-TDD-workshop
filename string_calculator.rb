@@ -10,11 +10,17 @@ def add(string)
     string = string[4..-1]
   end
 
+  negatives = []
   result = 0
   string.split(/#{delimiter}|\n/).each do |s|
     raise ArgumentError, "no empty values allowed" if s.empty?
-    result = result + s.to_i
+    if s.to_i < 0
+      negatives << s
+    else
+      result = result + s.to_i
+    end
   end
+  raise ArgumentError, "no negative numbers allowed: #{negatives.join(", ")}" unless negatives.empty?
   result
 end
 
