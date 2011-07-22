@@ -3,7 +3,8 @@ require 'mac_bacon'
 
 def add(string)
   return 0 if string.empty?
-  string[0,1].to_i + string[2,1].to_i
+  first_number, last_number = string.split(',')
+  first_number.to_i + last_number.to_i
 end
 
 describe "The string calculator method `Add'" do
@@ -15,7 +16,11 @@ describe "The string calculator method `Add'" do
     add("1").should == 1
   end
 
-  it "returns the sum of two digits delimited by a comma" do
+  it "returns the sum of two numbers delimited by a comma" do
     add("1,2").should == 3
+  end
+
+  it "takes numbers consisting of two or more digits" do
+    add("21,21").should == 42
   end
 end
