@@ -2,7 +2,8 @@ require 'rubygems'
 require 'mac_bacon'
 
 def add(string)
-  0
+  return 0 if string.empty?
+  string.to_i
 end
 
 describe "The string calculator method `Add'" do
