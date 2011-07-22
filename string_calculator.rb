@@ -4,7 +4,7 @@ require 'mac_bacon'
 def add(string)
   return 0 if string.empty?
   result = 0
-  string.split(',').each do |s|
+  string.split(/,|\n/).each do |s|
     result = result + s.to_i
   end
   result
