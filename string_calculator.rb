@@ -44,10 +44,15 @@ describe "The string calculator method `Add'" do
   end
 
   it "does not allow empty values" do
-    lambda { add("1,\n2") }.should.raise ArgumentError
+    lambda { add("1,\n2") }.should.raise(ArgumentError)
   end
 
   it "checks the first line of the string for a custom delimiter" do
     add("//;\n1;2").should == 3
+  end
+
+  it "does not allow negative values and tells the user which values those were" do
+    exception = lambda { add("-3,5,-7") }.should.raise(ArgumentError)
+    exception.message.should.include "-3, -7"
   end
 end
