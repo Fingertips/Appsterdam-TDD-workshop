@@ -1,7 +1,11 @@
-# http://osherove.com/tdd-kata-1/
+# Original kata from: http://osherove.com/tdd-kata-1
+#
+# 1. First make sure the mac_bacon-1.3.gem is installed
+# 2. Run the test with: $ macbacon string_calculator.rb
 
 require 'rubygems'
 require 'mac_bacon'
+
 
 # Compile string_calculator.m as a bundle loadable by MacRuby and `require' it (loads the bundle).
 implementation = File.expand_path("../string_calculator.m", __FILE__)
@@ -9,23 +13,6 @@ bundle = File.expand_path("../string_calculator.bundle", __FILE__)
 puts `clang -fobjc-gc -framework Foundation -bundle -o '#{bundle}' '#{implementation}'`
 require bundle
 
-#def add(string)
-  #delimiter = ","
-  #if string[0,2] == "//"
-    #if string[3,1] != "\n"
-      #raise ArgumentError, "the custom delimiter has to be on the first line, numbers on the next"
-    #end
-    #delimiter = string[2,1]
-    #string = string[4..-1]
-  #end
-
-  #numbers = string.split(/#{delimiter}|\n/)
-  #raise ArgumentError, "no empty values allowed" if numbers.any? { |s| s.empty? }
-  #numbers = numbers.map { |s| s.to_i }
-  #negatives = numbers.select { |i| i < 0 }
-  #raise ArgumentError, "no negative numbers allowed: #{negatives.join(", ")}" unless negatives.empty?
-  #numbers.inject(0) { |sum, i| sum + i }
-#end
 
 describe "The string calculator method `Add'" do
   before do
@@ -57,7 +44,8 @@ describe "The string calculator method `Add'" do
   end
 
   it "does not allow empty values" do
-    lambda { @calculator.add("1,\n2") }.should.raise(ArgumentError)
+    exception = lambda { @calculator.add("1,\n2") }.should.raise
+    exception.message.should.include "Empty values are not allowed."
   end
 
   it "checks the first line of the string for a custom delimiter" do
@@ -65,12 +53,12 @@ describe "The string calculator method `Add'" do
   end
 
   it "does not allow a custom delimiter on the same line as the numbers" do
-    exception = lambda { @calculator.add("//;1;2") }.should.raise(ArgumentError)
-    exception.message.should == "the custom delimiter has to be on the first line, numbers on the next"
+    exception = lambda { @calculator.add("//;1;2") }.should.raise
+    exception.message.should.include "The custom delimiter has to be on the first line, numbers on the next."
   end
 
   it "does not allow negative values and tells the user which values those were" do
-    exception = lambda { @calculator.add("-3,5,-7") }.should.raise(ArgumentError)
-    exception.message.should.include "-3, -7"
+    exception = lambda { @calculator.add("-3,5,-7") }.should.raise
+    exception.message.should.include "Negative numbers are not allowed: -3, -7"
   end
 end
