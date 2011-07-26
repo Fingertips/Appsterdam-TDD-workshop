@@ -14,15 +14,18 @@
 # 3. Finally, run the test like so:
 #      $ kicker -c -e 'macbacon string_calculator.rb'
 
-require 'rubygems'
-require 'mac_bacon'
-
 
 # Compile string_calculator.m as a bundle loadable by MacRuby and `require' it (loads the bundle).
 implementation = File.expand_path("../string_calculator.m", __FILE__)
 bundle = File.expand_path("../string_calculator.bundle", __FILE__)
 puts `clang -fobjc-gc -framework Foundation -bundle -o '#{bundle}' '#{implementation}'`
 require bundle
+
+
+# And load the MacBacon Ruby gem
+require 'rubygems'
+require 'mac_bacon'
+
 
 describe "The -[StringCalculator add:] method" do
   before do
