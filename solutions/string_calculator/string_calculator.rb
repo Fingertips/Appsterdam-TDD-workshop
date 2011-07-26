@@ -25,7 +25,7 @@ puts `clang -fobjc-gc -framework Foundation -bundle -o '#{bundle}' '#{implementa
 require bundle
 
 
-describe "The string calculator method `Add'" do
+describe "The -[StringCalculator add:] method" do
   before do
     @calculator = StringCalculator.new
   end
@@ -54,21 +54,21 @@ describe "The string calculator method `Add'" do
     @calculator.add("1\n2,3").should == 6
   end
 
-  it "does not allow empty values" do
-    exception = lambda { @calculator.add("1,\n2") }.should.raise
-    exception.message.should.include "Empty values are not allowed."
-  end
-
   it "checks the first line of the string for a custom delimiter" do
     @calculator.add("//;\n1;2").should == 3
   end
 
-  it "does not allow a custom delimiter on the same line as the numbers" do
+  it "raises when it encounters empty values" do
+    exception = lambda { @calculator.add("1,\n2") }.should.raise
+    exception.message.should.include "Empty values are not allowed."
+  end
+
+  it "raises when it encounters a custom delimiter on the same line as the numbers" do
     exception = lambda { @calculator.add("//;1;2") }.should.raise
     exception.message.should.include "The custom delimiter has to be on the first line, numbers on the next."
   end
 
-  it "does not allow negative values and tells the user which values those were" do
+  it "raises when it encounters negative values and tells the user which they are" do
     exception = lambda { @calculator.add("-3,5,-7") }.should.raise
     exception.message.should.include "Negative numbers are not allowed: -3, -7"
   end
