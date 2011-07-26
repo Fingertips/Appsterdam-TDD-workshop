@@ -9,7 +9,33 @@
 @implementation StringCalculator
 
 - (int)add:(NSString *)string {
-  return 0;
+  NSString *delimiter = @",";
+  if ([string hasPrefix:@"//"]) {
+    if ([string characterAtIndex:3] != '\n') {
+      NSLog(@"RAISE!");
+      return 0;
+    }
+    delimiter = [string substringWithRange:NSMakeRange(2, 1)];
+    string = [string substringWithRange:NSMakeRange(4, [string length] - 4)];
+  }
+
+  NSMutableCharacterSet *characterSet = [[NSMutableCharacterSet new] autorelease];
+  [characterSet addCharactersInString:@"\n"];
+  [characterSet addCharactersInString:delimiter];
+  NSArray *numbers = [string componentsSeparatedByCharactersInSet:characterSet];
+
+  // TODO raise for empty components
+
+  int sum = 0;
+  for (NSString *x in numbers) {
+    int number = [x intValue];
+    if (number < 0) {
+      // TODO raise for negatives
+    }
+    sum += number;
+  }
+
+  return sum;
 }
 
 @end
