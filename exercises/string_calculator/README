@@ -1,10 +1,13 @@
-Create a simple calculator method, called 'add'.
-================================================
-
-[NOTE]: The solution can be found in ./solutions/string_calculator.
+Create a calculator method called 'add'.
+========================================
 
 It takes a string consisting of 0, 1, or 2 numbers and returns the sum.
 For an empty string it returns 0.
+
+[NOTE] The solution can be found in ./solutions/string_calculator.
+
+Excersise steps
+---------------
 
 * Start with an empty string and move to one and then two numbers.
 
