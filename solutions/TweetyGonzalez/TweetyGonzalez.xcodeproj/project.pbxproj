@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51B31BA113E0BC4B007FFD91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31BA013E0BC4B007FFD91 /* Cocoa.framework */; };
+		51B31BA313E0BC4B007FFD91 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31BA213E0BC4B007FFD91 /* MacRuby.framework */; };
+		51B31BAA13E0BC4B007FFD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BA813E0BC4B007FFD91 /* InfoPlist.strings */; };
+		51B31BAC13E0BC4B007FFD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BAB13E0BC4B007FFD91 /* main.m */; };
+		51B31BB113E0BC4C007FFD91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BAF13E0BC4C007FFD91 /* MainMenu.xib */; };
+		51B31BB413E0BC4C007FFD91 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BB313E0BC4C007FFD91 /* rb_main.rb */; };
+		51B31BB613E0BC4C007FFD91 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BB513E0BC4C007FFD91 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51B31B9C13E0BC4B007FFD91 /* TweetyGonzalez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetyGonzalez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B31BA013E0BC4B007FFD91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		51B31BA213E0BC4B007FFD91 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		51B31BA713E0BC4B007FFD91 /* TweetyGonzalez-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetyGonzalez-Info.plist"; sourceTree = "<group>"; };
+		51B31BA913E0BC4B007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51B31BAB13E0BC4B007FFD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51B31BAD13E0BC4B007FFD91 /* TweetyGonzalez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetyGonzalez-Prefix.pch"; sourceTree = "<group>"; };
+		51B31BB013E0BC4C007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		51B31BB313E0BC4C007FFD91 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		51B31BB513E0BC4C007FFD91 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B31B9913E0BC4B007FFD91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B31BA113E0BC4B007FFD91 /* Cocoa.framework in Frameworks */,
+				51B31BA313E0BC4B007FFD91 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B31B9113E0BC4A007FFD91 = {
+			isa = PBXGroup;
+			children = (
+				51B31BA513E0BC4B007FFD91 /* TweetyGonzalez */,
+				51B31B9F13E0BC4B007FFD91 /* Frameworks */,
+				51B31B9D13E0BC4B007FFD91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51B31B9D13E0BC4B007FFD91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B31B9C13E0BC4B007FFD91 /* TweetyGonzalez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51B31B9F13E0BC4B007FFD91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B31BA013E0BC4B007FFD91 /* Cocoa.framework */,
+				51B31BA213E0BC4B007FFD91 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51B31BA513E0BC4B007FFD91 /* TweetyGonzalez */ = {
+			isa = PBXGroup;
+			children = (
+				51B31BB513E0BC4C007FFD91 /* AppDelegate.rb */,
+				51B31BAE13E0BC4C007FFD91 /* Resources */,
+				51B31BB213E0BC4C007FFD91 /* Other Sources */,
+				51B31BA613E0BC4B007FFD91 /* Supporting Files */,
+			);
+			path = TweetyGonzalez;
+			sourceTree = "<group>";
+		};
+		51B31BA613E0BC4B007FFD91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51B31BA713E0BC4B007FFD91 /* TweetyGonzalez-Info.plist */,
+				51B31BA813E0BC4B007FFD91 /* InfoPlist.strings */,
+				51B31BAB13E0BC4B007FFD91 /* main.m */,
+				51B31BAD13E0BC4B007FFD91 /* TweetyGonzalez-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51B31BAE13E0BC4C007FFD91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51B31BAF13E0BC4C007FFD91 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51B31BB213E0BC4C007FFD91 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				51B31BB313E0BC4C007FFD91 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		51B31BA413E0BC4B007FFD91 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 51B31BBC13E0BC4C007FFD91 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		51B31B9B13E0BC4B007FFD91 /* TweetyGonzalez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B31BB913E0BC4C007FFD91 /* Build configuration list for PBXNativeTarget "TweetyGonzalez" */;
+			buildPhases = (
+				51B31B9813E0BC4B007FFD91 /* Sources */,
+				51B31B9913E0BC4B007FFD91 /* Frameworks */,
+				51B31B9A13E0BC4B007FFD91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetyGonzalez;
+			productName = TweetyGonzalez;
+			productReference = 51B31B9C13E0BC4B007FFD91 /* TweetyGonzalez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B31B9313E0BC4A007FFD91 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 51B31B9613E0BC4A007FFD91 /* Build configuration list for PBXProject "TweetyGonzalez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51B31B9113E0BC4A007FFD91;
+			productRefGroup = 51B31B9D13E0BC4B007FFD91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51B31B9B13E0BC4B007FFD91 /* TweetyGonzalez */,
+				51B31BA413E0BC4B007FFD91 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B31B9A13E0BC4B007FFD91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B31BAA13E0BC4B007FFD91 /* InfoPlist.strings in Resources */,
+				51B31BB113E0BC4C007FFD91 /* MainMenu.xib in Resources */,
+				51B31BB413E0BC4C007FFD91 /* rb_main.rb in Resources */,
+				51B31BB613E0BC4C007FFD91 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B31B9813E0BC4B007FFD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B31BAC13E0BC4B007FFD91 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51B31BA813E0BC4B007FFD91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B31BA913E0BC4B007FFD91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51B31BAF13E0BC4C007FFD91 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B31BB013E0BC4C007FFD91 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51B31BB713E0BC4C007FFD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		51B31BB813E0BC4C007FFD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		51B31BBA13E0BC4C007FFD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetyGonzalez/TweetyGonzalez-Prefix.pch";
+				INFOPLIST_FILE = "TweetyGonzalez/TweetyGonzalez-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51B31BBB13E0BC4C007FFD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetyGonzalez/TweetyGonzalez-Prefix.pch";
+				INFOPLIST_FILE = "TweetyGonzalez/TweetyGonzalez-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51B31BBD13E0BC4C007FFD91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		51B31BBE13E0BC4C007FFD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51B31B9613E0BC4A007FFD91 /* Build configuration list for PBXProject "TweetyGonzalez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B31BB713E0BC4C007FFD91 /* Debug */,
+				51B31BB813E0BC4C007FFD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B31BB913E0BC4C007FFD91 /* Build configuration list for PBXNativeTarget "TweetyGonzalez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B31BBA13E0BC4C007FFD91 /* Debug */,
+				51B31BBB13E0BC4C007FFD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51B31BBC13E0BC4C007FFD91 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B31BBD13E0BC4C007FFD91 /* Debug */,
+				51B31BBE13E0BC4C007FFD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51B31B9313E0BC4A007FFD91 /* Project object */;
+}
