@@ -7,131 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51B31BA113E0BC4B007FFD91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31BA013E0BC4B007FFD91 /* Cocoa.framework */; };
-		51B31BA313E0BC4B007FFD91 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31BA213E0BC4B007FFD91 /* MacRuby.framework */; };
-		51B31BAA13E0BC4B007FFD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BA813E0BC4B007FFD91 /* InfoPlist.strings */; };
-		51B31BAC13E0BC4B007FFD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BAB13E0BC4B007FFD91 /* main.m */; };
-		51B31BB113E0BC4C007FFD91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BAF13E0BC4C007FFD91 /* MainMenu.xib */; };
-		51B31BB413E0BC4C007FFD91 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BB313E0BC4C007FFD91 /* rb_main.rb */; };
-		51B31BB613E0BC4C007FFD91 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BB513E0BC4C007FFD91 /* AppDelegate.rb */; };
+		51B31BCF13E0BDFF007FFD91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31BCE13E0BDFF007FFD91 /* Cocoa.framework */; };
+		51B31BD913E0BDFF007FFD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BD713E0BDFF007FFD91 /* InfoPlist.strings */; };
+		51B31BDB13E0BDFF007FFD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BDA13E0BDFF007FFD91 /* main.m */; };
+		51B31BDF13E0BDFF007FFD91 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BDD13E0BDFF007FFD91 /* Credits.rtf */; };
+		51B31BE213E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BE113E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m */; };
+		51B31BE513E0BE00007FFD91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BE313E0BE00007FFD91 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		51B31B9C13E0BC4B007FFD91 /* TweetyGonzalez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetyGonzalez.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		51B31BA013E0BC4B007FFD91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		51B31BA213E0BC4B007FFD91 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		51B31BA713E0BC4B007FFD91 /* TweetyGonzalez-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetyGonzalez-Info.plist"; sourceTree = "<group>"; };
-		51B31BA913E0BC4B007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		51B31BAB13E0BC4B007FFD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		51B31BAD13E0BC4B007FFD91 /* TweetyGonzalez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetyGonzalez-Prefix.pch"; sourceTree = "<group>"; };
-		51B31BB013E0BC4C007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		51B31BB313E0BC4C007FFD91 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		51B31BB513E0BC4C007FFD91 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		51B31BCA13E0BDFF007FFD91 /* TweetyGonzalez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetyGonzalez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B31BCE13E0BDFF007FFD91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		51B31BD113E0BDFF007FFD91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		51B31BD213E0BDFF007FFD91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		51B31BD313E0BDFF007FFD91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51B31BD613E0BDFF007FFD91 /* TweetyGonzalez-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetyGonzalez-Info.plist"; sourceTree = "<group>"; };
+		51B31BD813E0BDFF007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51B31BDA13E0BDFF007FFD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51B31BDC13E0BDFF007FFD91 /* TweetyGonzalez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetyGonzalez-Prefix.pch"; sourceTree = "<group>"; };
+		51B31BDE13E0BDFF007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		51B31BE013E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetyGonzalezAppDelegate.h; sourceTree = "<group>"; };
+		51B31BE113E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetyGonzalezAppDelegate.m; sourceTree = "<group>"; };
+		51B31BE413E0BE00007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		51B31B9913E0BC4B007FFD91 /* Frameworks */ = {
+		51B31BC713E0BDFF007FFD91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B31BA113E0BC4B007FFD91 /* Cocoa.framework in Frameworks */,
-				51B31BA313E0BC4B007FFD91 /* MacRuby.framework in Frameworks */,
+				51B31BCF13E0BDFF007FFD91 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		51B31B9113E0BC4A007FFD91 = {
+		51B31BBF13E0BDFF007FFD91 = {
 			isa = PBXGroup;
 			children = (
-				51B31BA513E0BC4B007FFD91 /* TweetyGonzalez */,
-				51B31B9F13E0BC4B007FFD91 /* Frameworks */,
-				51B31B9D13E0BC4B007FFD91 /* Products */,
+				51B31BD413E0BDFF007FFD91 /* TweetyGonzalez */,
+				51B31BCD13E0BDFF007FFD91 /* Frameworks */,
+				51B31BCB13E0BDFF007FFD91 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		51B31B9D13E0BC4B007FFD91 /* Products */ = {
+		51B31BCB13E0BDFF007FFD91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51B31B9C13E0BC4B007FFD91 /* TweetyGonzalez.app */,
+				51B31BCA13E0BDFF007FFD91 /* TweetyGonzalez.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		51B31B9F13E0BC4B007FFD91 /* Frameworks */ = {
+		51B31BCD13E0BDFF007FFD91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				51B31BA013E0BC4B007FFD91 /* Cocoa.framework */,
-				51B31BA213E0BC4B007FFD91 /* MacRuby.framework */,
+				51B31BCE13E0BDFF007FFD91 /* Cocoa.framework */,
+				51B31BD013E0BDFF007FFD91 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		51B31BA513E0BC4B007FFD91 /* TweetyGonzalez */ = {
+		51B31BD013E0BDFF007FFD91 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				51B31BB513E0BC4C007FFD91 /* AppDelegate.rb */,
-				51B31BAE13E0BC4C007FFD91 /* Resources */,
-				51B31BB213E0BC4C007FFD91 /* Other Sources */,
-				51B31BA613E0BC4B007FFD91 /* Supporting Files */,
+				51B31BD113E0BDFF007FFD91 /* AppKit.framework */,
+				51B31BD213E0BDFF007FFD91 /* CoreData.framework */,
+				51B31BD313E0BDFF007FFD91 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		51B31BD413E0BDFF007FFD91 /* TweetyGonzalez */ = {
+			isa = PBXGroup;
+			children = (
+				51B31BE013E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.h */,
+				51B31BE113E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m */,
+				51B31BE313E0BE00007FFD91 /* MainMenu.xib */,
+				51B31BD513E0BDFF007FFD91 /* Supporting Files */,
 			);
 			path = TweetyGonzalez;
 			sourceTree = "<group>";
 		};
-		51B31BA613E0BC4B007FFD91 /* Supporting Files */ = {
+		51B31BD513E0BDFF007FFD91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				51B31BA713E0BC4B007FFD91 /* TweetyGonzalez-Info.plist */,
-				51B31BA813E0BC4B007FFD91 /* InfoPlist.strings */,
-				51B31BAB13E0BC4B007FFD91 /* main.m */,
-				51B31BAD13E0BC4B007FFD91 /* TweetyGonzalez-Prefix.pch */,
+				51B31BD613E0BDFF007FFD91 /* TweetyGonzalez-Info.plist */,
+				51B31BD713E0BDFF007FFD91 /* InfoPlist.strings */,
+				51B31BDA13E0BDFF007FFD91 /* main.m */,
+				51B31BDC13E0BDFF007FFD91 /* TweetyGonzalez-Prefix.pch */,
+				51B31BDD13E0BDFF007FFD91 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		51B31BAE13E0BC4C007FFD91 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				51B31BAF13E0BC4C007FFD91 /* MainMenu.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		51B31BB213E0BC4C007FFD91 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				51B31BB313E0BC4C007FFD91 /* rb_main.rb */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-		51B31BA413E0BC4B007FFD91 /* Deployment */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "--compile --embed";
-			buildConfigurationList = 51B31BBC13E0BC4C007FFD91 /* Build configuration list for PBXLegacyTarget "Deployment" */;
-			buildPhases = (
-			);
-			buildToolPath = /usr/local/bin/macruby_deploy;
-			dependencies = (
-			);
-			name = Deployment;
-			passBuildSettingsInEnvironment = 1;
-			productName = Deployment;
-		};
-/* End PBXLegacyTarget section */
-
 /* Begin PBXNativeTarget section */
-		51B31B9B13E0BC4B007FFD91 /* TweetyGonzalez */ = {
+		51B31BC913E0BDFF007FFD91 /* TweetyGonzalez */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51B31BB913E0BC4C007FFD91 /* Build configuration list for PBXNativeTarget "TweetyGonzalez" */;
+			buildConfigurationList = 51B31BE813E0BE00007FFD91 /* Build configuration list for PBXNativeTarget "TweetyGonzalez" */;
 			buildPhases = (
-				51B31B9813E0BC4B007FFD91 /* Sources */,
-				51B31B9913E0BC4B007FFD91 /* Frameworks */,
-				51B31B9A13E0BC4B007FFD91 /* Resources */,
+				51B31BC613E0BDFF007FFD91 /* Sources */,
+				51B31BC713E0BDFF007FFD91 /* Frameworks */,
+				51B31BC813E0BDFF007FFD91 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -139,70 +119,77 @@
 			);
 			name = TweetyGonzalez;
 			productName = TweetyGonzalez;
-			productReference = 51B31B9C13E0BC4B007FFD91 /* TweetyGonzalez.app */;
+			productReference = 51B31BCA13E0BDFF007FFD91 /* TweetyGonzalez.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		51B31B9313E0BC4A007FFD91 /* Project object */ = {
+		51B31BC113E0BDFF007FFD91 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 51B31B9613E0BC4A007FFD91 /* Build configuration list for PBXProject "TweetyGonzalez" */;
+			buildConfigurationList = 51B31BC413E0BDFF007FFD91 /* Build configuration list for PBXProject "TweetyGonzalez" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 51B31B9113E0BC4A007FFD91;
-			productRefGroup = 51B31B9D13E0BC4B007FFD91 /* Products */;
+			mainGroup = 51B31BBF13E0BDFF007FFD91;
+			productRefGroup = 51B31BCB13E0BDFF007FFD91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51B31B9B13E0BC4B007FFD91 /* TweetyGonzalez */,
-				51B31BA413E0BC4B007FFD91 /* Deployment */,
+				51B31BC913E0BDFF007FFD91 /* TweetyGonzalez */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		51B31B9A13E0BC4B007FFD91 /* Resources */ = {
+		51B31BC813E0BDFF007FFD91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B31BAA13E0BC4B007FFD91 /* InfoPlist.strings in Resources */,
-				51B31BB113E0BC4C007FFD91 /* MainMenu.xib in Resources */,
-				51B31BB413E0BC4C007FFD91 /* rb_main.rb in Resources */,
-				51B31BB613E0BC4C007FFD91 /* AppDelegate.rb in Resources */,
+				51B31BD913E0BDFF007FFD91 /* InfoPlist.strings in Resources */,
+				51B31BDF13E0BDFF007FFD91 /* Credits.rtf in Resources */,
+				51B31BE513E0BE00007FFD91 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51B31B9813E0BC4B007FFD91 /* Sources */ = {
+		51B31BC613E0BDFF007FFD91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B31BAC13E0BC4B007FFD91 /* main.m in Sources */,
+				51B31BDB13E0BDFF007FFD91 /* main.m in Sources */,
+				51B31BE213E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51B31BA813E0BC4B007FFD91 /* InfoPlist.strings */ = {
+		51B31BD713E0BDFF007FFD91 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				51B31BA913E0BC4B007FFD91 /* en */,
+				51B31BD813E0BDFF007FFD91 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		51B31BAF13E0BC4C007FFD91 /* MainMenu.xib */ = {
+		51B31BDD13E0BDFF007FFD91 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				51B31BB013E0BC4C007FFD91 /* en */,
+				51B31BDE13E0BDFF007FFD91 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		51B31BE313E0BE00007FFD91 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B31BE413E0BE00007FFD91 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -210,7 +197,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		51B31BB713E0BC4C007FFD91 /* Debug */ = {
+		51B31BE613E0BE00007FFD91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		51B31BB813E0BC4C007FFD91 /* Release */ = {
+		51B31BE713E0BE00007FFD91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,14 +242,9 @@
 			};
 			name = Release;
 		};
-		51B31BBA13E0BC4C007FFD91 /* Debug */ = {
+		51B31BE913E0BE00007FFD91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TweetyGonzalez/TweetyGonzalez-Prefix.pch";
 				INFOPLIST_FILE = "TweetyGonzalez/TweetyGonzalez-Info.plist";
@@ -271,63 +253,38 @@
 			};
 			name = Debug;
 		};
-		51B31BBB13E0BC4C007FFD91 /* Release */ = {
+		51B31BEA13E0BE00007FFD91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TweetyGonzalez/TweetyGonzalez-Prefix.pch";
 				INFOPLIST_FILE = "TweetyGonzalez/TweetyGonzalez-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		51B31BBD13E0BC4C007FFD91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		51B31BBE13E0BC4C007FFD91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51B31B9613E0BC4A007FFD91 /* Build configuration list for PBXProject "TweetyGonzalez" */ = {
+		51B31BC413E0BDFF007FFD91 /* Build configuration list for PBXProject "TweetyGonzalez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51B31BB713E0BC4C007FFD91 /* Debug */,
-				51B31BB813E0BC4C007FFD91 /* Release */,
+				51B31BE613E0BE00007FFD91 /* Debug */,
+				51B31BE713E0BE00007FFD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51B31BB913E0BC4C007FFD91 /* Build configuration list for PBXNativeTarget "TweetyGonzalez" */ = {
+		51B31BE813E0BE00007FFD91 /* Build configuration list for PBXNativeTarget "TweetyGonzalez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51B31BBA13E0BC4C007FFD91 /* Debug */,
-				51B31BBB13E0BC4C007FFD91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		51B31BBC13E0BC4C007FFD91 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51B31BBD13E0BC4C007FFD91 /* Debug */,
-				51B31BBE13E0BC4C007FFD91 /* Release */,
+				51B31BE913E0BE00007FFD91 /* Debug */,
+				51B31BEA13E0BE00007FFD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 51B31B9313E0BC4A007FFD91 /* Project object */;
+	rootObject = 51B31BC113E0BDFF007FFD91 /* Project object */;
 }
