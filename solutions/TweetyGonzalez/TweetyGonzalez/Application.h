@@ -11,5 +11,12 @@
 @end
 
 
-@interface WindowController : NSWindowController
+@interface WindowController : NSWindowController <NSTextFieldDelegate> {
+  NSTextField *searchField;
+  NSButton *searchButton;
+}
+
+@property (retain) NSTextField *searchField;
+@property (retain) NSButton *searchButton;
+
 @end

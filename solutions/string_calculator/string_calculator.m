@@ -61,6 +61,7 @@
 
 @end
 
+
 // This function is needed by MacRuby. Normally when creating a MacRuby C
 // extension, this is the place where you would initialize the extension.
 //

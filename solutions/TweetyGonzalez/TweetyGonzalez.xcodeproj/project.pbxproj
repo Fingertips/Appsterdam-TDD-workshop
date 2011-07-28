@@ -11,7 +11,7 @@
 		51B31BD913E0BDFF007FFD91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BD713E0BDFF007FFD91 /* InfoPlist.strings */; };
 		51B31BDB13E0BDFF007FFD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BDA13E0BDFF007FFD91 /* main.m */; };
 		51B31BDF13E0BDFF007FFD91 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BDD13E0BDFF007FFD91 /* Credits.rtf */; };
-		51B31BE213E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BE113E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m */; };
+		51B31BE213E0BDFF007FFD91 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B31BE113E0BDFF007FFD91 /* Application.m */; };
 		51B31BE513E0BE00007FFD91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B31BE313E0BE00007FFD91 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +26,8 @@
 		51B31BDA13E0BDFF007FFD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51B31BDC13E0BDFF007FFD91 /* TweetyGonzalez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetyGonzalez-Prefix.pch"; sourceTree = "<group>"; };
 		51B31BDE13E0BDFF007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		51B31BE013E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetyGonzalezAppDelegate.h; sourceTree = "<group>"; };
-		51B31BE113E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetyGonzalezAppDelegate.m; sourceTree = "<group>"; };
+		51B31BE013E0BDFF007FFD91 /* Application.h */ = {isa = PBXFileReference; path = Application.h; sourceTree = "<group>"; };
+		51B31BE113E0BDFF007FFD91 /* Application.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
 		51B31BE413E0BE00007FFD91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +82,8 @@
 		51B31BD413E0BDFF007FFD91 /* TweetyGonzalez */ = {
 			isa = PBXGroup;
 			children = (
-				51B31BE013E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.h */,
-				51B31BE113E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m */,
+				51B31BE013E0BDFF007FFD91 /* Application.h */,
+				51B31BE113E0BDFF007FFD91 /* Application.m */,
 				51B31BE313E0BE00007FFD91 /* MainMenu.xib */,
 				51B31BD513E0BDFF007FFD91 /* Supporting Files */,
 			);
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B31BDB13E0BDFF007FFD91 /* main.m in Sources */,
-				51B31BE213E0BDFF007FFD91 /* TweetyGonzalezAppDelegate.m in Sources */,
+				51B31BE213E0BDFF007FFD91 /* Application.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +283,7 @@
 				51B31BEA13E0BE00007FFD91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
