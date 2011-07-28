@@ -7,7 +7,7 @@ text field. The search should be performed asynchronously.
 * Install the rack Ruby gem
 
 * In a second terminal window, start the test fixture server:
-    $ cd ./exercises/TweetyGonzalez/spec
+    $ cd ./exercises/TweetyGonzalez/spec/fixtures
     $ rackup
 
 * Run the spec with:
