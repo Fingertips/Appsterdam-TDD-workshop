@@ -55,7 +55,7 @@
     [contentView addSubview:searchButton];
 
     self.tweets = [NSArray array];
-    self.searchURLString = @"http://search.twitter.com?q=%@";
+    self.searchURLString = @"http://search.twitter.com/search.atom?q=%@";
   }
   return self;
 }
@@ -79,7 +79,9 @@
 - (void)performSearch:(id)sender {
   NSString *query = searchField.stringValue;
   NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:searchURLString, query]];
-  [NSURLConnection connectionWithRequest:[NSURLRequest requestWithURL:url] delegate:self];
+  NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+  [request addValue:@"application/atom+xml" forHTTPHeaderField:@"Content-Type"];
+  [NSURLConnection connectionWithRequest:request delegate:self];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {

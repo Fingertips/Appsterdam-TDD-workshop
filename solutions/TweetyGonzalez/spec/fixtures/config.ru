@@ -2,7 +2,7 @@ FIXTURE_ROOT = File.expand_path("../", __FILE__)
 
 app = lambda do |env|
   request = Rack::Request.new(env)
-  if request.path == '/search.atom'
+  if request.path == '/search.atom' && request.content_type == 'application/atom+xml'
     case request.params['q']
     when 'tweety'
       body = File.open(File.join(FIXTURE_ROOT, 'tweety.xml'))

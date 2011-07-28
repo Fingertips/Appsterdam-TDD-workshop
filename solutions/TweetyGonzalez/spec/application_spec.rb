@@ -48,8 +48,9 @@ end
 describe "WindowController" do
   before do
     @controller = WindowController.new
-    @controller.searchURLString = "http://127.0.0.1:9292/search.atom?q=%@"
     @controller.showWindow(self)
+    # Replace the host with our local address
+    @controller.searchURLString = @controller.searchURLString.sub("search.twitter.com", "127.0.0.1:9292")
   end
 
   it "enables the search button if the textfield contains text" do
