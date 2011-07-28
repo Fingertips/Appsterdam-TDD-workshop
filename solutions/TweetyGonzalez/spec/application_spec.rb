@@ -48,6 +48,7 @@ end
 describe "WindowController" do
   before do
     @controller = WindowController.new
+    @controller.searchURLString = "http://127.0.0.1:9292/search.atom?q=%@"
     @controller.showWindow(self)
   end
 
@@ -63,8 +64,26 @@ describe "WindowController" do
     @controller.searchButton.isEnabled.should == false
   end
 
+  # Send the action message to the button's target and passes the button as
+  # the argument, which is common with target-action messages.
+  def performSearchButtonAction
+    target = @controller.searchButton.target
+    action = @controller.searchButton.action
+    target.send(action, @controller.searchButton)
+  end
+
   it "performs a search on the remote webservice" do
-    # stub expect
+    @controller.searchField.stringValue = "tweety"
+    performSearchButtonAction
+    wait 1 do
+      @controller.tweets.size.should == 15
+
+      @controller.searchField.stringValue = "NO-RESULTS"
+      performSearchButtonAction
+      wait 1 do
+        @controller.tweets.size.should == 0
+      end
+    end
   end
 
   it "shows the search results in the tableview" do

@@ -11,13 +11,19 @@
 @end
 
 
-@interface WindowController : NSWindowController <NSTextFieldDelegate> {
+@interface WindowController : NSWindowController <NSTextFieldDelegate, NSURLConnectionDelegate> {
   NSTextField *searchField;
   NSButton *searchButton;
+  NSArray *tweets;
+  NSString *searchURLString;
+  NSMutableData *downloadData;
 }
 
 @property (retain) NSTextField *searchField;
 @property (retain) NSButton *searchButton;
+@property (retain) NSArray *tweets;
+@property (retain) NSString *searchURLString;
+@property (retain) NSMutableData *downloadData;
 
 @end
 

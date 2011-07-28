@@ -15,7 +15,7 @@
 
 @implementation WindowController
 
-@synthesize searchField, searchButton;
+@synthesize searchField, searchButton, tweets, searchURLString, downloadData;
 
 - (id)init {
   NSWindow *win = [[[NSWindow alloc] initWithContentRect:NSMakeRect(50, 50, 500, 400)
@@ -42,7 +42,12 @@
     searchButton.enabled = NO;
     searchButton.bezelStyle = NSRoundedBezelStyle;
     searchButton.autoresizingMask = NSViewMinXMargin;
+    searchButton.target = self;
+    searchButton.action = @selector(performSearch:);
     [contentView addSubview:searchButton];
+
+    self.tweets = [NSArray array];
+    self.searchURLString = @"http://search.twitter.com?q=%@";
   }
   return self;
 }
@@ -50,11 +55,33 @@
 - (void)dealloc {
   self.searchField = nil;
   self.searchButton = nil;
+  self.tweets = nil;
+  self.searchURLString = nil;
+  self.downloadData = nil;
   [super dealloc];
 }
 
 - (void)controlTextDidChange:(NSNotification *)aNotification {
   searchButton.enabled = [searchField.stringValue length] != 0;
+}
+
+- (void)performSearch:(id)sender {
+  NSString *query = searchField.stringValue;
+  NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:searchURLString, query]];
+  [NSURLConnection connectionWithRequest:[NSURLRequest requestWithURL:url] delegate:self];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+  self.downloadData = [NSMutableData data];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+  [downloadData appendData:data];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+  NSString *xml = [[[NSString alloc] initWithData:downloadData encoding:NSUTF8StringEncoding] autorelease];
+  self.tweets = [Tweet tweetsWithXMLString:xml];
 }
 
 @end
