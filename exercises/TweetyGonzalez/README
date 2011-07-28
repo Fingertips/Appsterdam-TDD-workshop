@@ -1,0 +1,14 @@
+Make the TweetyGonzalez twitter search app work.
+================================================
+
+Create an application that performs a search on Twitter with the query from the
+text field. The search should be performed asynchronously.
+
+* Install the rack Ruby gem
+
+* In a second terminal window, start the test fixture server:
+    $ cd ./exercises/TweetyGonzalez/spec
+    $ rackup
+
+* Run the spec with:
+   $ macbacon ./exercises/TweetyGonzalez/spec/application_spec.rb
