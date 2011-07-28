@@ -33,9 +33,12 @@
     tweetsTableView = [[NSTableView alloc] initWithFrame:NSMakeRect(0, 0, 500, 352)];
     tweetsTableView.dataSource = self;
     column = [[NSTableColumn new] autorelease];
+    column.width = 200;
     [column.headerCell setStringValue:@"Author"];
     [tweetsTableView addTableColumn:column];
     column = [[NSTableColumn new] autorelease];
+    column.width = 300;
+    column.resizingMask = NSTableColumnAutoresizingMask;
     [column.headerCell setStringValue:@"Message"];
     [tweetsTableView addTableColumn:column];
     scrollView.documentView = tweetsTableView;
