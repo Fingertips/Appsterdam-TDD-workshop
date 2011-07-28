@@ -15,7 +15,7 @@
 
 @implementation WindowController
 
-@synthesize searchField, searchButton, tweets, searchURLString, downloadData;
+@synthesize searchField, searchButton, tweetsTableView, tweets, searchURLString, downloadData;
 
 - (id)init {
   NSWindow *win = [[[NSWindow alloc] initWithContentRect:NSMakeRect(50, 50, 500, 400)
@@ -29,8 +29,16 @@
     scrollView.autoresizingMask = NSViewWidthSizable|NSViewHeightSizable;
     [contentView addSubview:scrollView];
 
-    NSTableView *tableView = [[[NSTableView alloc] initWithFrame:NSMakeRect(0, 0, 500, 352)] autorelease];
-    scrollView.documentView = tableView;
+    NSTableColumn *column;
+    tweetsTableView = [[NSTableView alloc] initWithFrame:NSMakeRect(0, 0, 500, 352)];
+    tweetsTableView.dataSource = self;
+    column = [[NSTableColumn new] autorelease];
+    [column.headerCell setStringValue:@"Author"];
+    [tweetsTableView addTableColumn:column];
+    column = [[NSTableColumn new] autorelease];
+    [column.headerCell setStringValue:@"Message"];
+    [tweetsTableView addTableColumn:column];
+    scrollView.documentView = tweetsTableView;
 
     searchField = [[NSTextField alloc] initWithFrame:NSMakeRect(10, 10, 390, 28)];
     searchField.autoresizingMask = NSViewWidthSizable;
@@ -55,6 +63,7 @@
 - (void)dealloc {
   self.searchField = nil;
   self.searchButton = nil;
+  self.tweetsTableView = nil;
   self.tweets = nil;
   self.searchURLString = nil;
   self.downloadData = nil;
@@ -64,6 +73,8 @@
 - (void)controlTextDidChange:(NSNotification *)aNotification {
   searchButton.enabled = [searchField.stringValue length] != 0;
 }
+
+// Perform search query
 
 - (void)performSearch:(id)sender {
   NSString *query = searchField.stringValue;
@@ -82,6 +93,21 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
   NSString *xml = [[[NSString alloc] initWithData:downloadData encoding:NSUTF8StringEncoding] autorelease];
   self.tweets = [Tweet tweetsWithXMLString:xml];
+  [tweetsTableView reloadData];
+}
+
+// Tableview data source
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+  return [tweets count];
+}
+
+- (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)index {
+  if ([[tableColumn.headerCell stringValue] isEqualToString:@"Author"]) {
+    return [(Tweet *)[tweets objectAtIndex:index] author];
+  } else {
+    return [(Tweet *)[tweets objectAtIndex:index] message];
+  }
 }
 
 @end

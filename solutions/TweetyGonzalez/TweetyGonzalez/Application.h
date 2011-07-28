@@ -11,9 +11,10 @@
 @end
 
 
-@interface WindowController : NSWindowController <NSTextFieldDelegate, NSURLConnectionDelegate> {
+@interface WindowController : NSWindowController <NSTableViewDataSource, NSTextFieldDelegate, NSURLConnectionDelegate> {
   NSTextField *searchField;
   NSButton *searchButton;
+  NSTableView *tweetsTableView;
   NSArray *tweets;
   NSString *searchURLString;
   NSMutableData *downloadData;
@@ -21,6 +22,7 @@
 
 @property (retain) NSTextField *searchField;
 @property (retain) NSButton *searchButton;
+@property (retain) NSTableView *tweetsTableView;
 @property (retain) NSArray *tweets;
 @property (retain) NSString *searchURLString;
 @property (retain) NSMutableData *downloadData;

@@ -64,8 +64,9 @@ describe "WindowController" do
     @controller.searchButton.isEnabled.should == false
   end
 
-  # Send the action message to the button's target and passes the button as
-  # the argument, which is common with target-action messages.
+  # Helper method that sends the action message to the button's target and
+  # passes the button as the argument, which is common with target-action
+  # messages.
   def performSearchButtonAction
     target = @controller.searchButton.target
     action = @controller.searchButton.action
@@ -87,5 +88,20 @@ describe "WindowController" do
   end
 
   it "shows the search results in the tableview" do
+    @controller.searchField.stringValue = "tweety"
+    performSearchButtonAction
+    wait 1 do
+      @controller.tweetsTableView.numberOfRows.should == 15
+      author = @controller.tweetsTableView.preparedCellAtColumn(0, row:1)
+      author.stringValue.should == "LJAGrant (Luke Grant)"
+      message = @controller.tweetsTableView.preparedCellAtColumn(1, row:1)
+      message.stringValue.should == "They're actually explaining the study of economy and business on Sylvester and Tweety right now..."
+
+      @controller.searchField.stringValue = "NO-RESULTS"
+      performSearchButtonAction
+      wait 1 do
+        @controller.tweetsTableView.numberOfRows.should == 0
+      end
+    end
   end
 end
