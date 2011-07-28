@@ -1,6 +1,9 @@
 *.bundle
 *.swp
 .DS_Store
+exercises/TweetyGonzalez/TweetyGonzalez.xcodeproj/project.xcworkspace/xcuserdata
+exercises/TweetyGonzalez/TweetyGonzalez.xcodeproj/xcuserdata
+exercises/TweetyGonzalez/build
 solutions/TweetyGonzalez/TweetyGonzalez.xcodeproj/project.xcworkspace/xcuserdata
 solutions/TweetyGonzalez/TweetyGonzalez.xcodeproj/xcuserdata
 solutions/TweetyGonzalez/build
