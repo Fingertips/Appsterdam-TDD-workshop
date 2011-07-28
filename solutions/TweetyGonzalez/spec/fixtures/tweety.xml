@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+  <id>tag:search.twitter.com,2005:search/tweety</id>
+  <link type="text/html" href="http://search.twitter.com/search?q=tweety" rel="alternate"/>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=tweety" rel="self"/>
+  <title>tweety - Twitter Search</title>
+  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=tweety&amp;since_id=96470508945674240" rel="refresh"/>
+  <twitter:warning>since_id removed for pagination.</twitter:warning>
+  <updated>2011-07-28T06:42:16Z</updated>
+  <openSearch:itemsPerPage>15</openSearch:itemsPerPage>
+  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=96470508945674240&amp;page=2&amp;q=tweety" rel="next"/>
+  <entry>
+    <id>tag:search.twitter.com,2005:96470508945674240</id>
+    <published>2011-07-28T06:42:16Z</published>
+    <link type="text/html" href="http://twitter.com/ph0an7tom3/statuses/96470508945674240" rel="alternate"/>
+    <title>@tweetybird7625 @KevinHart4real what it do tweety.</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/tweetybird7625&quot;&gt;@tweetybird7625&lt;/a&gt; &lt;a href=&quot;http://twitter.com/KevinHart4real&quot;&gt;@KevinHart4real&lt;/a&gt; what it do &lt;b&gt;tweety&lt;/b&gt;.</content>
+    <updated>2011-07-28T06:42:16Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/sticky/default_profile_images/default_profile_4_normal.png" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;Mobile Web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>ph0an7tom3 (James  Carter )</name>
+      <uri>http://twitter.com/ph0an7tom3</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96470415689523200</id>
+    <published>2011-07-28T06:41:54Z</published>
+    <link type="text/html" href="http://twitter.com/LJAGrant/statuses/96470415689523200" rel="alternate"/>
+    <title>They're actually explaining the study of economy and business on Sylvester and Tweety right now...</title>
+    <content type="html">They&amp;apos;re actually explaining the study of economy and business on Sylvester and &lt;b&gt;Tweety&lt;/b&gt; right now...</content>
+    <updated>2011-07-28T06:41:54Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/1455995611/DSC01074__2__small__normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>LJAGrant (Luke Grant)</name>
+      <uri>http://twitter.com/LJAGrant</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96470383233998849</id>
+    <published>2011-07-28T06:41:46Z</published>
+    <link type="text/html" href="http://twitter.com/notso_innocent/statuses/96470383233998849" rel="alternate"/>
+    <title>Goodnight tweety birds :)</title>
+    <content type="html">Goodnight &lt;b&gt;tweety&lt;/b&gt; birds :)</content>
+    <updated>2011-07-28T06:41:46Z</updated>
+    <link type="image/png" href="http://a2.twimg.com/profile_images/1385375245/image_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>notso_innocent (Janelle Jordan)</name>
+      <uri>http://twitter.com/notso_innocent</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96470230339031041</id>
+    <published>2011-07-28T06:41:09Z</published>
+    <link type="text/html" href="http://twitter.com/qweeenB/statuses/96470230339031041" rel="alternate"/>
+    <title>@kuyakim_atienza pooh is an amoeba. wala siyang kuwan. tweety bird is a bad bird, wala siyang salawal. - hahaha. kuleeet! =D</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/kuyakim_atienza&quot;&gt;@kuyakim_atienza&lt;/a&gt; pooh is an amoeba. wala siyang kuwan. &lt;b&gt;tweety&lt;/b&gt; bird is a bad bird, wala siyang salawal. - hahaha. kuleeet! =D</content>
+    <updated>2011-07-28T06:41:09Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/735975509/alex2_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>in</twitter:lang>
+    <author>
+      <name>qweeenB (Bea Caisip)</name>
+      <uri>http://twitter.com/qweeenB</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469994321354753</id>
+    <published>2011-07-28T06:40:13Z</published>
+    <link type="text/html" href="http://twitter.com/Beautyinthehood/statuses/96469994321354753" rel="alternate"/>
+    <title>@VivaLaLotus Love da Avi Cuz!!! It Pwetty Hawt!! (Tweety bird voice) Lmao</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/VivaLaLotus&quot;&gt;@VivaLaLotus&lt;/a&gt; Love da Avi Cuz!!! It Pwetty Hawt!! (&lt;b&gt;Tweety&lt;/b&gt; bird voice) Lmao</content>
+    <updated>2011-07-28T06:40:13Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1461260627/324084359_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://ubersocial.com&quot; rel=&quot;nofollow&quot;&gt;&#220;berSocial for BlackBerry&lt;/a&gt;</twitter:source>
+    <twitter:lang>fi</twitter:lang>
+    <author>
+      <name>Beautyinthehood (LiL' Momma)</name>
+      <uri>http://twitter.com/Beautyinthehood</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469943964536832</id>
+    <published>2011-07-28T06:40:01Z</published>
+    <link type="text/html" href="http://twitter.com/_Pwoper_Muser_/statuses/96469943964536832" rel="alternate"/>
+    <title>Good nite Tweety land :)
+#offlinenow</title>
+    <content type="html">Good nite &lt;b&gt;Tweety&lt;/b&gt; land :)
+&lt;a href=&quot;http://search.twitter.com/search?q=%23offlinenow&quot; onclick=&quot;pageTracker._setCustomVar(2, 'result_type', 'recent', 3);pageTracker._trackPageview('/intra/hashtag/#offlinenow');&quot;&gt;#offlinenow&lt;/a&gt;</content>
+    <updated>2011-07-28T06:40:01Z</updated>
+    <link type="image/png" href="http://a2.twimg.com/profile_images/1417760291/image_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>_Pwoper_Muser_ (&#653;&#1413;&#1394;&#237;&#1010;&#593; &#9760;)</name>
+      <uri>http://twitter.com/_Pwoper_Muser_</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469780101476352</id>
+    <published>2011-07-28T06:39:22Z</published>
+    <link type="text/html" href="http://twitter.com/QueenLee_______/statuses/96469780101476352" rel="alternate"/>
+    <title>Goodnight tweety poohs:))</title>
+    <content type="html">Goodnight &lt;b&gt;tweety&lt;/b&gt; poohs:))</content>
+    <updated>2011-07-28T06:39:22Z</updated>
+    <link type="image/png" href="http://a2.twimg.com/profile_images/1426927834/314750339_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://ubersocial.com&quot; rel=&quot;nofollow&quot;&gt;&#220;berSocial for BlackBerry&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>QueenLee_______ (Leah Bellucci )</name>
+      <uri>http://twitter.com/QueenLee_______</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469533828722688</id>
+    <published>2011-07-28T06:38:23Z</published>
+    <link type="text/html" href="http://twitter.com/GRANDer4ever07/statuses/96469533828722688" rel="alternate"/>
+    <title>@thebiancac GUESSS WHAT! :D I'm wearing the same &quot;Full Of Geek&quot; tee with Tweety bird on it! &lt;3</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/thebiancac&quot;&gt;@thebiancac&lt;/a&gt; GUESSS WHAT! :D I&amp;apos;m wearing the same &amp;quot;Full Of Geek&amp;quot; tee with &lt;b&gt;Tweety&lt;/b&gt; bird on it! &amp;lt;3</content>
+    <updated>2011-07-28T06:38:23Z</updated>
+    <link type="image/png" href="http://a0.twimg.com/profile_images/1455969979/Screen_shot_2011-07-22_at_3.37.13_PM_normal.png" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>GRANDer4ever07 (Michelle &#9829;[:)</name>
+      <uri>http://twitter.com/GRANDer4ever07</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469504082706432</id>
+    <published>2011-07-28T06:38:16Z</published>
+    <link type="text/html" href="http://twitter.com/angelslove93/statuses/96469504082706432" rel="alternate"/>
+    <title>&#8220;@kuyakim_atienza: pooh is an amoeba. wala siyang kuwan. RT @iamgoys tweety bird is a bad bird, wala siyang salawal.
+Hehehe.. Nyt n nga..</title>
+    <content type="html">&#8220;@kuyakim_atienza: pooh is an amoeba. wala siyang kuwan. RT &lt;a href=&quot;http://twitter.com/iamgoys&quot;&gt;@iamgoys&lt;/a&gt; &lt;b&gt;tweety&lt;/b&gt; bird is a bad bird, wala siyang salawal.
+Hehehe.. Nyt n nga..</content>
+    <updated>2011-07-28T06:38:16Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/1246123822/adik3_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</twitter:source>
+    <twitter:lang>in</twitter:lang>
+    <author>
+      <name>angelslove93 (shiella castillo)</name>
+      <uri>http://twitter.com/angelslove93</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469500601442304</id>
+    <published>2011-07-28T06:38:15Z</published>
+    <link type="text/html" href="http://twitter.com/FaintPeak/statuses/96469500601442304" rel="alternate"/>
+    <title>@SmokinClownSD Thanks tweety.</title>
+    <content type="html">&lt;a href=&quot;http://twitter.com/SmokinClownSD&quot;&gt;@SmokinClownSD&lt;/a&gt; Thanks &lt;b&gt;tweety&lt;/b&gt;.</content>
+    <updated>2011-07-28T06:38:15Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/sticky/default_profile_images/default_profile_4_normal.png" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>FaintPeak (Matt Hester)</name>
+      <uri>http://twitter.com/FaintPeak</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469264252411904</id>
+    <published>2011-07-28T06:37:19Z</published>
+    <link type="text/html" href="http://twitter.com/cheeks_ORtweets/statuses/96469264252411904" rel="alternate"/>
+    <title>- i' thought i' saw a puddycat (:  #nw tweety bird &lt;3</title>
+    <content type="html">- i&amp;apos; thought i&amp;apos; saw a puddycat (:  &lt;a href=&quot;http://search.twitter.com/search?q=%23nw&quot; onclick=&quot;pageTracker._setCustomVar(2, 'result_type', 'recent', 3);pageTracker._trackPageview('/intra/hashtag/#nw');&quot;&gt;#nw&lt;/a&gt; &lt;b&gt;tweety&lt;/b&gt; bird &amp;lt;3</content>
+    <updated>2011-07-28T06:37:19Z</updated>
+    <link type="image/png" href="http://a3.twimg.com/profile_images/1463099735/t724EK19_normal" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/download/android&quot; rel=&quot;nofollow&quot;&gt;Twitter for Android&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>cheeks_ORtweets ( &#961;&#1103;&#949;&#1090;&#1090;yqir&#8467; &#12484;)</name>
+      <uri>http://twitter.com/cheeks_ORtweets</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469249962409984</id>
+    <published>2011-07-28T06:37:16Z</published>
+    <link type="text/html" href="http://twitter.com/08murielleanne/statuses/96469249962409984" rel="alternate"/>
+    <title>I LOVE.. MY BACKGROUND! CUTTIE TWEETY BIRD! &gt;:D&lt;</title>
+    <content type="html">I LOVE.. MY BACKGROUND! CUTTIE &lt;b&gt;TWEETY&lt;/b&gt; BIRD! &amp;gt;:D&amp;lt;</content>
+    <updated>2011-07-28T06:37:16Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1424037899/222380_10150235654172095_577247094_9303193_4304664_n_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;Mobile Web&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>08murielleanne (Imperfect &#9825;)</name>
+      <uri>http://twitter.com/08murielleanne</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96469051383103488</id>
+    <published>2011-07-28T06:36:28Z</published>
+    <link type="text/html" href="http://twitter.com/MickvanKlaveren/statuses/96469051383103488" rel="alternate"/>
+    <title>Ventjes van 14 zijn net tweety: 2 turven hoog en een hele grote bek!</title>
+    <content type="html">Ventjes van 14 zijn net &lt;b&gt;tweety&lt;/b&gt;: 2 turven hoog en een hele grote bek!</content>
+    <updated>2011-07-28T06:36:28Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1436722914/charles_normal.png" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitter.com/#!/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</twitter:source>
+    <twitter:lang>nl</twitter:lang>
+    <author>
+      <name>MickvanKlaveren (Mick van Klaveren)</name>
+      <uri>http://twitter.com/MickvanKlaveren</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96468949616701440</id>
+    <published>2011-07-28T06:36:04Z</published>
+    <link type="text/html" href="http://twitter.com/cye_chan/statuses/96468949616701440" rel="alternate"/>
+    <title>RT @kuyakim_atienza: pooh is an amoeba. wala siyang kuwan. RT @iamgoys tweety bird is a bad bird, wala siyang salawal. RT @JEROOOOM-does that make Pooh also bad?</title>
+    <content type="html">RT &lt;a href=&quot;http://twitter.com/kuyakim_atienza&quot;&gt;@kuyakim_atienza&lt;/a&gt;: pooh is an amoeba. wala siyang kuwan. RT &lt;a href=&quot;http://twitter.com/iamgoys&quot;&gt;@iamgoys&lt;/a&gt; &lt;b&gt;tweety&lt;/b&gt; bird is a bad bird, wala siyang salawal. RT @JEROOOOM-does that make Pooh also bad?</content>
+    <updated>2011-07-28T06:36:04Z</updated>
+    <link type="image/png" href="http://a1.twimg.com/profile_images/1350512251/Kawaii008_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitterrific.com&quot; rel=&quot;nofollow&quot;&gt;Twitterrific&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>cye_chan (Cyrille e=mc^2)</name>
+      <uri>http://twitter.com/cye_chan</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:search.twitter.com,2005:96468637279453184</id>
+    <published>2011-07-28T06:34:50Z</published>
+    <link type="text/html" href="http://twitter.com/SkipCantSkip/statuses/96468637279453184" rel="alternate"/>
+    <title>RT @kuyakim_atienza: pooh is an amoeba. wala siyang kuwan. RT @iamgoys tweety bird is a bad bird, wala siyang salawal. RT @JEROOOOM-does that make Pooh also bad?</title>
+    <content type="html">RT &lt;a href=&quot;http://twitter.com/kuyakim_atienza&quot;&gt;@kuyakim_atienza&lt;/a&gt;: pooh is an amoeba. wala siyang kuwan. RT &lt;a href=&quot;http://twitter.com/iamgoys&quot;&gt;@iamgoys&lt;/a&gt; &lt;b&gt;tweety&lt;/b&gt; bird is a bad bird, wala siyang salawal. RT @JEROOOOM-does that make Pooh also bad?</content>
+    <updated>2011-07-28T06:34:50Z</updated>
+    <link type="image/png" href="http://a2.twimg.com/profile_images/1440191134/image_normal.jpg" rel="image"/>
+    <twitter:geo>
+    </twitter:geo>
+    <twitter:metadata>
+      <twitter:result_type>recent</twitter:result_type>
+    </twitter:metadata>
+    <twitter:source>&lt;a href=&quot;http://twitterrific.com&quot; rel=&quot;nofollow&quot;&gt;Twitterrific&lt;/a&gt;</twitter:source>
+    <twitter:lang>en</twitter:lang>
+    <author>
+      <name>SkipCantSkip (Janee Trinidad)</name>
+      <uri>http://twitter.com/SkipCantSkip</uri>
+    </author>
+  </entry>
+</feed>

@@ -20,3 +20,19 @@
 @property (retain) NSButton *searchButton;
 
 @end
+
+
+@interface Tweet : NSObject {
+  NSXMLElement *entryXMLElement;
+}
+
+@property (retain) NSXMLElement *entryXMLElement;
+
++ (NSArray *)tweetsWithXMLString:(NSString *)xml;
+
+- (id)initWithXMLElement:(NSXMLElement *)entry;
+
+- (NSString *)author;
+- (NSString *)message;
+
+@end

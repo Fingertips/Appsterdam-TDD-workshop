@@ -60,6 +60,46 @@
 @end
 
 
+@implementation Tweet
+
+@synthesize entryXMLElement;
+
++ (NSArray *)tweetsWithXMLString:(NSString *)xml {
+  NSMutableArray *tweets = [NSMutableArray array];
+  NSXMLDocument *doc     = [[[NSXMLDocument alloc] initWithXMLString:xml options:0 error:NULL] autorelease];
+  NSArray *entries       = [[doc rootElement] elementsForName:@"entry"];
+  for (NSXMLElement *entry in entries) {
+    [tweets addObject:[[[Tweet alloc] initWithXMLElement:entry] autorelease]];
+  }
+  return [[tweets copy] autorelease];
+}
+
+- (id)initWithXMLElement:(NSXMLElement *)entry {
+  if ((self = [super init])) {
+    self.entryXMLElement = entry;
+  }
+  return self;
+}
+
+- (void)dealloc {
+  self.entryXMLElement = nil;
+  [super dealloc];
+}
+
+- (NSString *)author {
+  NSXMLElement *author = [[entryXMLElement elementsForName:@"author"] objectAtIndex:0];
+  NSXMLElement *name = [[author elementsForName:@"name"] objectAtIndex:0];
+  return [name stringValue];
+}
+
+- (NSString *)message {
+  NSXMLElement *title = [[entryXMLElement elementsForName:@"title"] objectAtIndex:0];
+  return [title stringValue];
+}
+
+@end
+
+
 // This function is needed by MacRuby. Normally when creating a MacRuby C
 // extension, this is the place where you would initialize the extension.
 //
